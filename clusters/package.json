@@ -1,0 +1,21 @@
+{
+  "name": "clusters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "load-test": "autocannon -c 50 -d 10 -p 10 http://localhost:5110",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "type": "module",
+  "devDependencies": {
+    "autocannon": "^8.0.0"
+  }
+}
