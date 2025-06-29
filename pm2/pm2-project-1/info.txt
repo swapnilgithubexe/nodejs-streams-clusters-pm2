@@ -1,9 +1,0 @@
-pm2 start app.js/0
-pm2 stop 0
-
-pm2 ls/list
-pm2 log/logs
-
-//Changes will be reflected on restart
-
-pm2 ecosystem
